@@ -1,0 +1,126 @@
+body{
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.planets-background {
+  text-align: center;
+  background-image: url('../assets/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planets-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.planets-heading {
+  margin-bottom: 2rem;
+  color: azure;
+  margin: 0 0 10px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.planets-heading h1 {
+  font-size: 5rem;
+}
+
+.planets-heading h2 {
+  font-size: 2rem;
+}
+
+
+.planets-heading p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: azure;
+}
+
+.planets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.planet-card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-details {
+  background: #1f476e98;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planet-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.planet-data p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: azure;
+}
+
+.residents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.resident-card {
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.resident-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.resident-card h3 {
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.resident-card p {
+  margin: 5px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #777;
+}
