@@ -12,3 +12,6 @@ star_wars_backend/.env
 
 # Miscellaneous
 .DS_Store
+
+.env
+.env.*

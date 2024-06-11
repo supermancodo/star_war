@@ -16,7 +16,7 @@ export const Planets: React.FC = () => {
     useEffect(() => {
         const fetchPlanets = async () => {
             try {
-                const { data } = await axios.get('http://localhost:8000/api/planets');
+                const { data } = await axios.get(`${process.env.REACT_APP_API_URL}/api/planets`);
                 setPlanets(data.results);
                 setLoading(false);
             } catch (error: any) {
